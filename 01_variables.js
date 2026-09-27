@@ -1,9 +1,60 @@
-const accountId = 15401;
-let email = "skk441380@gmail.com"
-var accountPassword = "12344"
-accountCity = "peshawer"
+// const accountId = 15401;
+// let email = "skk441380@gmail.com"
+// var accountPassword = "12344"
+// accountCity = "peshawer"
 
 // accountId = 15000node  const ko hum doobara value assign nahi kr saktai
 
-console.log(accountId);
-console.table([accountId,email,accountPassword,accountCity])
+// console.log(accountId);
+// console.table([accountId,email,accountPassword,accountCity])
+
+let score = "33ab"
+// type is string 
+// console.log(typeof(score));
+// console.log(score);
+// now the type is NaN 
+// console.log(typeof score);
+
+// with the help of conversion we can change the string number to numbers
+let result  = Number(score)
+// console.log(result);
+// console.log(typeof result);
+
+// but when we write the alphabets with number in quotes its type is number but NaN in real 
+
+// let logedin =  1
+// console.log(typeof logedin);
+// // convert the number to boolein
+// let BooleanIsloggedIn = Boolean(logedin)
+// console.log(typeof BooleanIsloggedIn);
+
+// console.log(BooleanIsloggedIn);
+
+//  1  => true , 0  => false
+// ""  => false 
+// "salman"  => true
+
+
+// ok tu stack ka andar primitive data store hota hai aur heap ka andar non primitive
+// 2nd varaible ke copy de jati hai stack mai aur heap mai data da reference 
+// jis ki wajha sa hum actual value mai cahnges krsaktai hai heap kai andar
+// non primitive
+
+let user = {
+    name:"salman",
+
+    age:25
+}
+// console.log(user);
+
+// let user2 = user;
+// console.log(user2);
+
+// user2.age = 20;
+// console.log(user2);
+// console.log(user);
+
+let name = "salman"
+console.log(name);
+console.log(name.at(6));
+
