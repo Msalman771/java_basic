@@ -16,7 +16,7 @@ let score = "33ab"
 // console.log(typeof score);
 
 // with the help of conversion we can change the string number to numbers
-let result  = Number(score)
+let result = Number(score)
 // console.log(result);
 // console.log(typeof result);
 
@@ -41,9 +41,9 @@ let result  = Number(score)
 // non primitive
 
 let user = {
-    name:"salman",
+    name: "salman",
 
-    age:25
+    age: 25
 }
 // console.log(user);
 
@@ -54,7 +54,74 @@ let user = {
 // console.log(user2);
 // console.log(user);
 
-let name = "salman"
-console.log(name);
-console.log(name.at(6));
 
+let name = "salman"
+let index = 4
+// console.log(name);
+// console.log(name.at(4));
+
+// console.log(`the charte is in ${index} is ${name.charAt(index)}`);
+
+// console.log(`the cahrater code is ${name.charCodeAt(5)} of the charter s`)
+
+// console.log(name.concat("", index));
+// ends method is used where the string ends with the follwing chahter or not
+// console.log(name.endsWith("n"));
+
+// include method
+
+let sentence = "the quick brown fox jump over a lzay dog"
+let word = "cat"
+// console.log(`the word "${word}" ${sentence.includes(word) ? "is" : "is not"} present inside the sentence  `);
+
+// indexOf
+
+// console.log(`the index of fox is ${sentence.indexOf("fox")}`);
+// date 
+// let date = new Date()
+// console.log(date);
+// console.log(date.toLocaleString());
+// console.log(date.toString());
+
+// array with array methods
+
+let cars = ["BMW","audi","mercades","lexus","porche"]
+
+// let car =cars.slice(1,3)
+// console.log(car);
+// console.log("No changes occur in orignal array through slice",cars);
+
+// let array2 = cars.splice(1,3)
+// console.log(array2);
+
+// console.log("Now you can see the splice method manipulate the original array ",cars);
+
+
+ // thourg push method we add the value to the array in the last
+
+cars.push("tractor") 
+console.log(cars);
+
+// with the help of pop we remove the last value
+cars.pop()
+console.log(cars);
+
+// with the help of unshift method we add the value to the start
+cars.unshift("horse")
+console.log(cars);
+
+// witht he help of shift method we remove the first value
+cars.shift()
+console.log(cars);
+
+// includes method kai through hum maloom kr saktai hai kai value maujood hai ka nahi
+let inc = cars.includes("BMW")
+console.log(inc);
+
+// through indexof kai yea value hai kai nahi
+let ind = cars.indexOf("lexus")
+console.log(ind);
+
+// join kai through hum hum array ko string bana sktai hai
+let joi = cars.join()
+console.log(joi);
