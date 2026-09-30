@@ -43,12 +43,12 @@
 
 // console.log(Array.of(score1,score2,score3));
 
-let name =["salman","rehan","zeeshan"]
-let list = name.entries();
-let text = "";
-for (let x of list){
-    text += x
-}
+// let name =["salman","rehan","zeeshan"]
+// let list = name.entries();
+// let text = "";
+// for (let x of list){
+//     text += x
+// }
 // console.log(text);
 
 
@@ -186,22 +186,113 @@ for (let x of list){
 //     console.log("no discount");
     
 // }
-let age = 22;
-let hasID = true;
-let hasTicket = false;
-if(age > 18 && hasID == true && hasTicket == true){
-    console.log("Entry alowed");
+// let age = 22;
+// let hasID = true;
+// let hasTicket = false;
+// if(age > 18 && hasID == true && hasTicket == true){
+//     console.log("Entry alowed");
     
-}
-else if(age > 18 && hasID == true && hasTicket == false){
-    console.log("Buy Ticket");
+// }
+// else if(age > 18 && hasID == true && hasTicket == false){
+//     console.log("Buy Ticket");
     
-}
-else if(age > 18 && hasID == false ){
-    console.log("Id required");
+// }
+// else if(age > 18 && hasID == false ){
+//     console.log("Id required");
     
-}
-else{
-    console.log("not allowed");
+// }
+// else{
+//     console.log("not allowed");
     
-}
+// // }
+// let age = 20;
+// let hasID = true;
+// let isVIP = true;
+// if(age > 18 && hasID == true){
+//     console.log("Regular access");
+// }
+// else if(age > 18 && ( hasID == true && isVIP == true)){
+//     console.log("Access Granted");
+    
+// }
+// else{
+//     console.log("Access granted");
+    
+// }   
+// let age = 2;
+// let hasLicense = false;
+// if(age >= 18){
+//     if(hasLicense == true){
+//         console.log("you can drive");
+//     }
+//     else{
+//         console.log("Licence required");
+        
+//     }
+// }
+// else{
+//     console.log("too young");
+    
+// }
+
+// let age = 25;
+// let hasID = true;
+// let hasTicket = false;
+// if(age >=18){
+//     if(!hasID){
+//         console.log("Id required");
+//     }
+//     else{
+//         if(hasTicket == true){
+//         console.log("entry allowed");
+        
+//     }
+//     else{
+//         console.log("ticket required");
+       
+//     }
+//     }
+//     }
+// else{
+//     console.log("too young");
+    
+// }
+// let age = 25;
+
+// let email = "salman@gmail.com";
+// let isLoggedIn = true;
+// if(isLoggedIn == true && email.includes("@")){
+//     console.log("email valid");
+    
+// }
+// else{
+//     console.log("emai invalid");
+    
+// }
+// let UserName = "    SALMAN   "
+
+
+// let username = UserName.toLowerCase()
+// let usertrim= username.trim()
+// console.log(usertrim);
+
+// if (usertrim == "salman"){
+//     console.log("welcome salman");
+    
+// }
+// else{
+//     console.log("not found");
+    
+// }
+// let message = "I love JavaScript";
+
+// // let message1 = message.includes("JavaScript")
+// // console.log(message1);
+// // let 
+// if (message.toLowerCase().includes("javascript")){
+//     console.log(`${message}`);
+// }
+// else{
+//     console.log("not found");
+    
+// }
