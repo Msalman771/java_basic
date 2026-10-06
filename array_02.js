@@ -447,11 +447,11 @@
 // console.log(result);
 
 // go on the every index and midify it
-// let numbers = [2, 4, 6, 8];
-// let result = numbers.map(function(newnumber){
-//     return newnumber * 3
-// });
-// console.log(result);
+let numbers = [2, 4, 6, 8];
+let result = numbers.map(function(newnumber){
+    return newnumber * 3
+});
+console.log(result);
 
 // return true or false
 // let numbers = [2, 4, 6, 8];
@@ -483,9 +483,3 @@
 
 // console.log(result);
 
-for(let i=1; i<=50;i++){
-    if(i%5==0 || i% 6==0){
-        console.log(i);
-        
-    }
-}
