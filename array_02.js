@@ -296,3 +296,196 @@
 //     console.log("not found");
     
 // }
+// let email = "salman@gmail.com";
+// let ind = email.indexOf("@")
+// console.log(ind);
+
+// if(ind !== -2){
+//     console.log("symbol found");
+    
+// }
+// else{
+//     console.log("invalid");
+    
+// }
+
+// let username = "SalmanKhan";
+
+// if(username.endsWith("Khan")){
+//     console.log("yes END WITH KHAN");
+    
+// }
+// else{
+//     console.log("invalid");
+    
+// }
+// let message = "I like JavaScript";
+// let rep = message.replace("JavaScript","python")
+// if(rep.includes("python")){
+//     console.log("yes python present");
+    
+// }
+// else{
+//     console.log("no change");
+    
+// }
+// let message = "I like JavaScript. JavaScript is easy.";
+// let chn = message.replaceAll("JavaScript","Python")
+// console.log(chn);
+// let username = "SalmanKhan";
+// let sli = username.toUpperCase().slice(0,6)
+// console.log(sli);
+// if(sli == "SALMAN"){
+//     console.log("yes true")
+// }
+// else{
+//     console.log("not found");
+    
+// }
+// 
+// let password = "Salman123";
+// let len= password.length
+// console.log(len);
+
+// if (len >= 8){
+//     console.log("strong enough");
+    
+// }
+// else{
+//     console.log("too short");
+    
+// }
+// let username = "salman";
+// let fin = username.charAt(0).toUpperCase()
+// console.log(fin);
+// if(fin == ("S")){
+//     console.log("yes its right");
+    
+// }
+
+// let email = "salman@gmail.com";
+// let pos = email.indexOf("@")
+// let Username = email.slice(0,pos).toUpperCase()
+
+// console.log(pos,Username);
+// if(Username == "SALMAN"){
+//     console.log("correcgt name");
+    
+// }
+// else{
+//     console.log("not wright");
+    
+// }
+
+// let name = "Salman Khan";
+
+// let fullName = "Salman-Khan-kha-n";
+// let parts = fullName.split("-")
+// console.log(parts);
+
+// let len = parts.length
+// console.log(len);
+// if (len == 2){
+//     console.log("validd full name ");
+    
+// }
+// let joi =parts.join(" ")
+// console.log(joi);
+// let fullName = "salman-khan";
+// console.log(fullName);
+
+// let spli = fullName.split("-").join(" ").toUpperCase()
+// console.log(spli);
+// if( spli == "SALMAN KHAN"){
+//     console.log("correct");
+    
+// }
+// else{
+//     console.log("incorrect");
+    
+// }
+
+// let fruits = ["Apple", "Banana"];
+
+// fruits.push("kiwi")
+// console.log(fruits);
+// fruits.pop()
+// console.log(fruits.length);
+
+
+// let fruits = ["Apple", "Banana", "Mango", "Orange"];
+// let ind =fruits.indexOf("Orange")
+// console.log(ind);
+
+//     let name = ["salman","zeeshan","rehan","ali"]
+//     // let cars  = ["bmw","audi","honda"]
+//     // let ind = name.slice(1,3)
+//     let spl = name.splice(1,0)
+//     console.log(spl);
+// console.log(name);
+
+// the first find is extract from the array
+// let numbers = [1,12,13,23,35]
+
+// let result = numbers.find(function(number)
+// {
+//     return number>=13;
+// })
+// console.log(result);
+
+// let cars = ["adui","bmw","honda"]
+// let resultc = cars.filter(function(car){
+//     return car >= "honda"
+// })
+// console.log(resultc);
+
+// evevry greater number from 13 is extract
+// let numbers = [1,12,13,23,35]
+// let result  = numbers.filter(function(number){
+//     return number >= 13
+// })
+// console.log(result);
+
+// go on the every index and midify it
+// let numbers = [2, 4, 6, 8];
+// let result = numbers.map(function(newnumber){
+//     return newnumber * 3
+// });
+// console.log(result);
+
+// return true or false
+// let numbers = [2, 4, 6, 8];
+// let result = numbers.some(function(newnumber){
+//     return newnumber > 3
+// });
+// console.log(result);
+
+// return true or false
+// let numbers = [2, 4, 6, 8];
+// let result = numbers.every(function(newnumber){
+//     return newnumber > 3
+// });
+// console.log(result);
+
+// let ages = [12, 15, 19, 25, 30];
+
+// let result = ages.findIndex(function(age){
+//     return age >=20;
+// })
+// console.log(result);
+
+// reduce the arraay into singal value matlab add the values
+// let numbers = [5, 10, 15, 20];
+
+// let result = numbers.reduce(function(total , number){
+//     return total + number
+// })
+
+// console.log(result);
+
+for(let i=1; i<=50;i++){
+    if(i%5==0 || i% 6==0){
+        console.log(i);
+        
+    }
+}

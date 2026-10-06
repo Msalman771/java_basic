@@ -38,7 +38,7 @@
 // console.log(result);
 // console.log(typeof(result));
 let name ="salman is the computer science student"
-let newname  = name.split(" ")
+let newname  = name.split("-")
 // for(let x in name){
 //     console.log(name[x]);
     
