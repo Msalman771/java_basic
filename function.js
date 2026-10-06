@@ -78,4 +78,15 @@ function multi(a , b){
     
 }
 let value=multi(10,20)
-console.log(value);
+console.log(value); 
+
+
+function checkage(age){
+    if(age<18){
+        return "too young"
+    }
+    return "adult"
+}
+
+let value1 = checkage(18)
+console.log(value1);
