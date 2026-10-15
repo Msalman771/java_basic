@@ -69,38 +69,24 @@
 // console.log(valueret);
 
 
-
-// arrow function
-// let arrow = (a,b) => a+b;
-// let arrowvalue = arrow(10,20);
-// console.log(arrowvalue);
-
-// let hello = () => "hello sir";
-// let value = hello();
-// console.log(value);
-
-// calling function with other function
-// function sayhello(){
-//     console.log("hello sir");
+function multi(a , b){
+    // console.log(a+b);
+    let x = a +b
+    console.log(x);
     
-// }
-// // sayhello();
+    return "done"
+    
+}
+let value=multi(10,20)
+console.log(value); 
 
-// function start(){
-//     console.log("start");
-//     sayhello();
-// }
-// start();
 
-// function welcome() {
-//     console.log("Welcome Salman");
-// }
+function checkage(age){
+    if(age<18){
+        return "too young"
+    }
+    return "adult"
+}
 
-// function begin() {
-//     // yahan welcome function ko call karo
-//     console.log("Begin function is called");
-//     welcome();
-// }
-
-// begin();
-
+let value1 = checkage(18)
+console.log(value1);
