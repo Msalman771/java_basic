@@ -153,3 +153,29 @@
 // console.log(father.value());
 // console.log(Object.keys(father));
 // console.log(Object.entries(father));
+
+const sym = Symbol("key1")
+const jsuser = {
+    name:"salman",
+    id : 123,
+    [sym]:"mykey1",
+    age : 25,
+    lastlogin : ["monday","friday"]
+}
+console.log(jsuser);
+console.log(typeof(sym));
+jsuser.age = 26;
+console.log(jsuser);
+// Object.freeze(jsuser) // whan we freeze the object then no changers will occur
+jsuser.name = "rehan"
+console.log(jsuser);
+
+jsuser.greeting = function(){
+    console.log("helllo js user ");
+    
+}
+jsuser.greeting = function(){
+    console.log(`helllo js user ${this.name}`);
+    
+}
+console.log(jsuser.greeting());
