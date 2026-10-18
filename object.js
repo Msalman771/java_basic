@@ -154,28 +154,87 @@
 // console.log(Object.keys(father));
 // console.log(Object.entries(father));
 
-const sym = Symbol("key1")
-const jsuser = {
-    name:"salman",
-    id : 123,
-    [sym]:"mykey1",
-    age : 25,
-    lastlogin : ["monday","friday"]
-}
-console.log(jsuser);
-console.log(typeof(sym));
-jsuser.age = 26;
-console.log(jsuser);
-// Object.freeze(jsuser) // whan we freeze the object then no changers will occur
-jsuser.name = "rehan"
-console.log(jsuser);
+// const sym = Symbol("key1")
+// const jsuser = {
+//     name:"salman",
+//     id : 123,
+//     [sym]:"mykey1",
+//     age : 25,
+//     lastlogin : ["monday","friday"]
+// }
+// console.log(jsuser);
+// console.log(typeof(sym));
+// jsuser.age = 26;
+// console.log(jsuser);
+// // Object.freeze(jsuser) // whan we freeze the object then no changers will occur
+// jsuser.name = "rehan"
+// console.log(jsuser);
 
-jsuser.greeting = function(){
-    console.log("helllo js user ");
+// jsuser.greeting = function(){
+//     console.log("helllo js user ");
     
-}
-jsuser.greeting = function(){
-    console.log(`helllo js user ${this.name}`);
+// }
+// jsuser.greeting = function(){
+//     console.log(`helllo js user ${this.name}`);
     
+// }
+// console.log(jsuser.greeting());
+
+
+// console.log(tender);
+
+const regularuser = {
+    email : "skk441380@gmail.com",
+    fullname:{
+        firstName:"salman",
+        lastName:"khan",
+    }
 }
-console.log(jsuser.greeting());
+const {fullname:name} = regularuser
+console.log(name);
+
+// const value = Object.assign({}, regularuser,tender)
+// console.log(regularuser);
+// console.log(regularuser.fullname.firstName)#
+// console.log(value);
+
+
+// const obj1 = { 1: "s", 2:"a"}
+// const obj2 = {3:"l", 4:"man"}
+// const obj3 = Object.assign(obj1,obj2) one way 
+// const obj3 = {...obj1,...obj2}
+// console.log(obj3);
+
+
+const users =[
+    {
+        id:1,
+        gmail:"skk441380@gmial.com"
+    },
+     {
+        id:1,
+        gmail:"skk441380@gmial.com"
+    },
+     {
+        id:1,
+        gmail:"skk441380@gmial.com"
+    }
+
+]
+// console.log(users[1]["gmail"]);
+// console.log(Object.entries(users));
+// console.log(tender.hasOwnProperty("id"));
+
+// const tender = {}
+
+// tender.name = "salman";
+// tender.id = 123;
+const course = {
+    course : "java",
+    price: "999",
+    courseinstructor:"salman"
+}
+const {courseinstructor:tuitor, course:subject} = course
+// console.log(tuitor);
+// console.log(subject);
+
