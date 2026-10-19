@@ -291,9 +291,19 @@
      
     // }
     // console.log(`${car}`);
-    console.log("ABC\bD");
-    console.log("Hello\fWorld");
-    console.log("Hello\nWorld");
-    console.log("Hello\rWorld");
-    console.log("Name:\tSalman");
-    console.log("Hello\vWorld");
+    // console.log("ABC\bD");
+    // console.log("Hello\fWorld");
+    // console.log("Hello\nWorld");
+    // console.log("Hello\rWorld");
+    // console.log("Name:\tSalman");
+    // console.log("Hello\vWorld");
+
+const array = ["salman","zeeshan","rehan"]
+const len = array.length
+console.log(len);
+
+for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    console.log(element);
+    
+}
