@@ -300,10 +300,32 @@
 
 const array = ["salman","zeeshan","rehan"]
 const len = array.length
-console.log(len);
+// console.log(len);
 
 for (let i = 0; i < array.length; i++) {
     const element = array[i];
-    console.log(element);
+    // console.log(element);
     
 }
+for (let index = 0; index <=20; index++) {
+    if(index == 5){
+        // console.log("detected");
+        // break
+        continue
+    }
+    // console.log(index);
+    
+    
+}
+// let arr = ["khan","salman","khan"]
+let a = 1;
+//  while(a<arr.length){
+//      console.log(arr[a]);
+//      console.log(`the value of a : ${a}`);
+//     a++
+// }
+
+do{
+    console.log("this loop run onr time atleast before the codition checking ");
+    a++
+}while (a <= 10)
