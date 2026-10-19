@@ -207,9 +207,56 @@ const one2 = (num2) => (num2 + 10 );
 // }
 // arrow()
 
-const arrow1 = (num) => (num +  10)
-console.log(arrow1(32));
+// (function one(){
+//     console.log(`iife function`);
+    
+// })();
+// ((name)=>{
+//     console.log(`2nd iife function ${name}`);
+    
+// })(" IIFE ")
 
-const arrow = (num) => num +  10
-console.log(arrow(12));
+// const object = {}
 
+// if (Object.entries(object).length === 0){
+//     console.log("object is empthy");
+    
+// }
+
+// const user1 = []
+// if (user1.length === 0){
+//     console.log("array is empthy");
+    
+// }
+
+// // nullish concept
+// let name1;
+// name1 = 10 ?? 20
+// console.log(name1);
+
+
+// console.log(name1 ?? "Guest");
+
+// const iceprice = 100;
+// iceprice <= 80 ? console.log("less the 80") : console.log("greter then 80");
+
+const month = "aprail"
+switch (month) {
+    case "january":
+        console.log("january");
+        break;
+
+    case "febuary":
+        console.log("febuary");
+        break;
+    case "march":
+        console.log("march");
+        break;
+    case "aprail":
+        console.log("aprail");
+        break;
+    default:
+        console.log("month is not available");
+        break;
+
+}
